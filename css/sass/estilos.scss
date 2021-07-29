@@ -1,0 +1,73 @@
+@import "parciales/fuentes";
+@import "parciales/colores";
+@import "parciales/mixins";
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: $poppins;
+    color: $blanco;
+    @include tipografiaBase($poppins, 1rem, italic, $blanco, null, null);
+    background-color: $rosaSuave;
+    width: 100%;
+    height: 100vh;
+
+    @include mobilLandscape {
+         background-color: $negro;
+     }
+
+    h1 {
+        @include tipografiaBase($poppins, 2rem, normal, $negro, bold, null);
+        color: $negro;
+    }
+}
+
+.ficha {
+    background-color: #adffbb;
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.ficha__imagen {
+    width: 50%;
+    float: left;
+}
+
+.ficha__imagen__responsive {
+    width: 100%;
+    height: auto;
+}
+
+.ficha__texto {
+    width: 50%;
+    float: left;
+    color: $negro;
+}
+
+.boton {
+    background-color: hotpink;
+    color: $blanco;
+    border: none;
+}
+
+.boton--rosaSuave {
+    background-color: $rosaSuave;
+}
+
+button:hover {
+    background-color: $celeste;
+
+    @if $celeste == #82f3ff {
+        a {
+            list-style-type: none;
+            text-decoration: none;
+        }
+    }
+}
+
+.hoverCuadro:hover {
+    background-color: white;
+}

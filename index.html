@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 11</title>
+
+    <!-- Normalize -->
+    <link rel="stylesheet" href="css/normalize.min.css">
+
+    <!-- Fuentes de Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,500&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+
+    <!-- Mis estilos de CSS -->
+    <link rel="stylesheet" href="css/estilos.min.css">
+</head>
+
+<body>
+    <div class="container-xl">
+        <div class="col">
+            <h1>Animales y sus descripciones</h1>
+            <p>Un animal es un ser vivo que puede moverse por sus propios medios. Por lo general, dentro de la denominación se incluye a los integrantes del reino conocido como Animalia. Los animales ingieren sus alimentos, desarrollan una reproducción de tipo sexual y absorben oxígeno a través de la respiración.</p>
+        </div>
+    </div>
+
+    <!-- Estuctura BEM: 1 -->
+    <div class="ficha hoverCuadro">
+       <div class="ficha__imagen">
+           <img class="ficha__imagen__responsive" src="https://images.unsplash.com/photo-1546182990-dffeafbe841d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1040&q=80" alt="Leon">
+       </div>
+       <div class="ficha__texto">
+           <p>Un león es un animal mamífero originario de África que se caracteriza por su cabeza de gran tamaño (coronada por una melena en el caso de los machos), sus dientes fuertes, sus garras y su cola extensa que finaliza en un fleco.</p>
+       </div> 
+       <button class="boton boton--rosaSuave"><a href="https://es.wikipedia.org/wiki/Panthera_leo">Ir a la Wikipedia de un Leon</a></button>
+    </div>
+
+    <!-- Estuctura BEM: 2 -->
+    <div class="ficha hoverCuadro">
+        <div class="ficha__imagen">
+            <img class="ficha__imagen__responsive" src="https://images.unsplash.com/photo-1470093851219-69951fcbb533?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80auto=format&fit=crop&w=1040&q=80" alt="Zorro artico">
+        </div>
+        <div class="ficha__texto">
+            <p>El zorro ártico es un animal increíblemente fuerte, capaz de sobrevivir a las gélidas temperaturas del Ártico, que pueden alcanzar los -50 ºC, en las tierras desarboladas en las que habita.</p>
+        </div> 
+        <button class="boton boton--rosaSuave"><a href="https://es.wikipedia.org/wiki/Vulpes_lagopus">Ir a la Wikipedia de un Zorro Artico</a></button>
+     </div>
+
+    <!-- Estuctura BEM: 3 -->
+    <div class="ficha hoverCuadro">
+        <div class="ficha__imagen">
+            <img class="ficha__imagen__responsive" src="https://images.unsplash.com/photo-1425082661705-1834bfd09dca?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1055&q=80" alt="Hamster">
+        </div>
+        <div class="ficha__texto">
+            <p>El hámster es un roedor perteneciente a la familia critecinos y suele ser un animal que es adaptado como mascota ya que se puede tener en un hogar sin ningún tipo de preocupación y con pocos cuidados.</p>
+        </div> 
+        <button class="boton boton--rosaSuave"><a href="https://es.wikipedia.org/wiki/Cricetinae">Ir a la Wikipedia de un Hamster</a></button>
+     </div>
+
+    <!-- Estuctura BEM: 4 -->
+    <div class="ficha hoverCuadro">
+        <div class="ficha__imagen">
+            <img class="ficha__imagen__responsive" src="https://images.unsplash.com/photo-1463852247062-1bbca38f7805?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1055&q=80" alt="Gorila">
+        </div>
+        <div class="ficha__texto">
+            <p>El gorila es el más grande de todos los primates. Éstos se desplazan en cuatro patas. Sus extremidades superiores son similares a los brazos humanos que también utilizan para apoyarse al andar. Los machos adultos miden hasta 1.8 metros de altura y pesan más de 135 kilos.</p>
+        </div> 
+        <button class="boton boton--rosaSuave"><a href="https://es.wikipedia.org/wiki/Gorilla">Ir a la Wikipedia de un Gorila</a></button>
+     </div>
+
+    <!-- Script de Bootstrap -->
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
